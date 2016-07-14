@@ -1,0 +1,30 @@
+body{
+    background-color:lightgray;
+    
+}
+.left{
+    width:50%;
+    float: right
+}
+.right{
+    width:50%;
+    float:left;
+    font-family: 'Indie Flower', cursive;
+    font-size:90%;
+
+}
+
+.g{
+  background-color: transparent;
+  padding: 10px 32px;
+  border: 5px;
+}
+.nav{
+    text-decoration:none;
+    font-style:arial;
+    border:solid 2px;
+}
+
+.code{
+      background-image: url("code.gif");
+}
