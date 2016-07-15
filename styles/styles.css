@@ -5,14 +5,16 @@ body{
 .left{
     width:50%;
     float: right
+    
 }
 .right{
     width:50%;
     float:left;
-    font-family: 'Indie Flower', cursive;
+   font-family: 'Rock Salt', cursive;
     font-size:90%;
 
 }
+
 
 .g{
   background-color: transparent;
@@ -21,10 +23,98 @@ body{
 }
 .nav{
     text-decoration:none;
-    font-style:arial;
     border:solid 2px;
+    border-color:black;
+    position:absolute;
+    top:75%;
+    left:25%;
+    color:gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size:150%;
+    padding:5px;
+}
+.naav{
+    text-decoration:none;
+    border:solid 2px;
+    color:gray;
+    font-style:normal;
+    position:absolute;
+    top:75%;
+    border-color:black;
+    left:12%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:150%;
+    padding:5px;
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color:blue}
+
+ .dropdown-content {
+    display:inline-block;
+}
+.new{
+    margin-top:5%;
+    font-size:300%;
+}
+.neww{
+    font-size:500%;
+    
 }
 
 .code{
-      background-image: url("code.gif");
+    background-image: url("../images/ag.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:20%;
+    height:20%;
+}
+
+.nav1 {
+    position: fixed;
+    min-height: 100%;
+    padding:0;
+    opacity: 0.5;
 }
