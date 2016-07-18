@@ -24,7 +24,7 @@ body{
 .nav{
     text-decoration:none;
     border:solid 2px;
-    border-color:black;
+    border-color:red;
     position:absolute;
     top:75%;
     left:25%;
@@ -40,7 +40,7 @@ body{
     font-style:normal;
     position:absolute;
     top:75%;
-    border-color:black;
+    border-color:red;
     left:12%;
     font-family: 'Montserrat', sans-serif;
     font-size:150%;
@@ -118,3 +118,36 @@ li.dropdown {
     padding:0;
     opacity: 0.5;
 }
+
+.ww {
+ list-style-type:none;
+ margin: 0px;
+ padding : 0px;
+ width:200px;
+ background-color:grey ;
+}
+
+.ww {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: grey;
+    
+}
+
+ .ww {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.ww :hover {
+    background-color: saddlebrown;
+    color: black;
+}
+
+
+
+
