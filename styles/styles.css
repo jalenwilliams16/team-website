@@ -119,34 +119,133 @@ li.dropdown {
     opacity: 0.5;
 }
 
-.ww {
- list-style-type:none;
- margin: 0px;
- padding : 0px;
- width:200px;
- background-color:grey ;
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
 }
 
-.ww {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
-    background-color: grey;
+h2 { 
+   position: absolute; 
+   top: 40px; 
+   left: 425px; 
+   width: 160%;
+   color:white;
+   
+   
+}
+.iim{
+    position:absolute;
+    left:400px;
+    opacity:0.8;
+    width:500px;
     
 }
 
- .ww {
-    display: block;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
+.team{
+    color:blue;
+    position:relative;
+    left:400px;
+    top:40%;
+    width:200px;
+}
+.iiim{
+    position:absolute;
+    left:400px;
+    top:800%;
+    width:500px;
+    opacity:0.8;
+    margin-top:3%;
+    
 }
 
-.ww :hover {
-    background-color: saddlebrown;
-    color: black;
+
+
+    
+    
+
+
+body {
+  background-color: white;
 }
+
+ ul {
+  list-style-type: none;
+  font-size: 200%;
+  background-color: gray;
+  width: 25%;
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  border: 5px solid black;
+  opacity: 0.5; 
+}
+
+ li a {
+  text-decoration: none;
+  margin-top: 4%;
+  color: white;
+}
+
+ li a:hover {
+  background-color: green;
+  color: yellow;
+}
+
+li a:active {
+  background-color: purple;
+  color: skyblue;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+
+ @media(max-width: 790px) {
+  ul {
+    width: 100%;
+    height: auto;
+  }
+  li {
+    display: inline;
+/*     margin-left: 2%; */
+  }
+}
+
+@media screen and (max-width:795px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:795px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  } 
+  
+  h1 {
+    text-align: center;
+}
+
+h2{
+  text-align:left;
+}
+
 
 
 
