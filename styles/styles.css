@@ -48,7 +48,7 @@ body{
     
 }
 
-ul {
+/*ul {
     list-style-type: none;
     overflow: hidden;font-family: 'Montserrat', sans-serif;
     background-color: black;
@@ -72,7 +72,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
-}
+}*/
 
 
 .dropdown-content {
@@ -107,7 +107,7 @@ li.dropdown {
 .code{
     background-image: url("../images/ag.jpg");
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     width:20%;
     height:20%;
 }
@@ -164,11 +164,11 @@ h2 {
     
 
 
-body {
-  background-color: white;
-}
+/*body {*/
+/*  background-color: white;*/
+/*}*/
 
- ul {
+ /*ul {
   list-style-type: none;
   font-size: 200%;
   background-color: gray;
@@ -210,19 +210,20 @@ ul.topnav li.icon {
   }
   li {
     display: inline;
-/*     margin-left: 2%; */
+  margin-left: 2%; 
   }
-}
+}*/
 
-@media screen and (max-width:795px) {
+
+/*@media screen and (max-width:795px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
   }
-}
+}*/
 
-@media screen and (max-width:795px) {
+/*@media screen and (max-width:795px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -237,16 +238,43 @@ ul.topnav li.icon {
     display: block;
     text-align: left;
   } 
+  */
   
-  h1 {
+ /* h1 {
     text-align: center;
 }
 
 h2{
   text-align:left;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:black;
+    height:700px;
+    opacity:0.6;
+
 }
 
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
 
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
 
+.ph2 {
+    background-size: cover;
+}
 
 
