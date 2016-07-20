@@ -48,6 +48,7 @@ body{
     
 }
 
+
 /*ul {
     list-style-type: none;
     overflow: hidden;font-family: 'Montserrat', sans-serif;
@@ -105,7 +106,7 @@ li.dropdown {
 }
 
 .code{
-    background-image: url("../images/ag.jpg");
+    background-image: url("../images/gma.jpg");
     background-size: cover;
     background-repeat:repeat;
     width:20%;
@@ -256,6 +257,7 @@ ul {
     background-color:black;
     height:700px;
     opacity:0.6;
+    position:fixed;
 
 }
 
@@ -264,6 +266,7 @@ li a {
     color: white;
     padding: 8px 16px;
     text-decoration: none;
+    
     
 }
 
@@ -275,6 +278,39 @@ li a:hover {
 
 .ph2 {
     background-size: cover;
+    margin-bottom: 50px;
+}
+
+h1,p{
+background-color:red;
+}
+
+p{
+font-family:"arial";
+font-size:25px;
+color:blue;
+
 }
 
 
+.active {
+    font-weight: bolder;
+}
+
+
+.h11{
+    color:white;
+}
+
+main{
+    margin-left:300px;
+}
+.heading{
+    border-bottom:1px solid black;
+    width:100%;
+}
+
+.black {
+    display: block;
+    
+}
