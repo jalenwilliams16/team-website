@@ -119,6 +119,7 @@ li.dropdown {
     min-height: 100%;
     padding:0;
     opacity: 0.5;
+ 
 }
 
 .image { 
@@ -144,7 +145,8 @@ h2 {
     
     .oo {
         position: absolute;
-        left: 400px;
+        left: 450px;
+        
     }
     
     
@@ -152,7 +154,7 @@ h2 {
       position: absolute;
       left: 400px;
       width: 500px;
-      margin-top: 550px;
+      margin-top: 500px;
   }  
   
   .im2 {
@@ -367,11 +369,18 @@ main{
     top:30%;
     left:30%;
     color:white;
+    border: 2px solid;
+    background-color:black;
+    opacity:0.6;
 }
 .h11{
     position:absolute;
     top:20%;
-    left:30%;
+    left:20%;
+    color:white;
+    border:2px solid;
+    background-color:black;
+    opacity:0.6;
     }
 .para2{
     width:700px;
@@ -379,12 +388,18 @@ main{
     top:60%;
     left:30%;
     color:white;
+    border: 2px solid;
+    background-color: black;
+    opacity: 0.6;
+    
+    
 }
 .h22{
     color:white;
     font-size:30px;
     border-bottom:1px solid;
-    width:70%;
+   
+    
     position:fixed;
     left:20%;
     
@@ -397,4 +412,14 @@ main{
     top:70%;
     left:30%;
     color: white;
+    border:2px solid;
+    background-color:black;
+    opacity:0.6;
 }
+
+.f1 {
+    position: absolute;
+    bottom: 550px;
+    color: white;
+    left: 520px;
+}    
