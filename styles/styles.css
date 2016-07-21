@@ -106,11 +106,12 @@ li.dropdown {
 }
 
 .code{
-    background-image: url("../images/gma.jpg");
-    background-size: cover;
-    background-repeat:repeat;
+    background-image: url("../images/a4.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
     width:20%;
     height:20%;
+    background-attachment: fixed;
 }
 
 .nav1 {
@@ -134,13 +135,62 @@ h2 {
    
    
 }
-.iim{
+.iim {
     position:absolute;
     left:400px;
     opacity:0.8;
     width:500px;
+    }
     
-}
+    .oo {
+        position: absolute;
+        left: 400px;
+    }
+    
+    
+  .im1 {
+      position: absolute;
+      left: 400px;
+      width: 500px;
+      margin-top: 550px;
+  }  
+  
+  .im2 {
+      position: absolute;
+      left: 400px;
+      width: 500px;
+      margin-top: 950px;
+  }
+  
+  .im3 {
+      position: absolute;
+      left: 400px;
+      width: 500px;
+      margin-top: 1400px;
+  }
+  
+  .im4 {
+      position: absolute;
+      left: 400px;
+      width: 500px;
+      margin-top: 2090px;
+      
+  }
+  
+  .im5 {
+      position: absolute;
+      left: 400px;
+      width: 500px;
+      margin-top: 2500px;
+  }
+    
+    
+    
+    
+    
+    
+    
+    
 
 .team{
     color:blue;
@@ -281,9 +331,6 @@ li a:hover {
     margin-bottom: 50px;
 }
 
-h1,p{
-background-color:red;
-}
 
 p{
 font-family:"arial";
@@ -313,4 +360,41 @@ main{
 .black {
     display: block;
     
+}
+.para {
+    width:700px;
+    position:absolute;
+    top:30%;
+    left:30%;
+    color:white;
+}
+.h11{
+    position:absolute;
+    top:20%;
+    left:30%;
+    }
+.para2{
+    width:700px;
+    position:absolute;
+    top:60%;
+    left:30%;
+    color:white;
+}
+.h22{
+    color:white;
+    font-size:30px;
+    border-bottom:1px solid;
+    width:70%;
+    position:fixed;
+    left:20%;
+    
+    
+}
+
+.para3 {
+    width: 700px;
+    position: absolute;
+    top:70%;
+    left:30%;
+    color: white;
 }
